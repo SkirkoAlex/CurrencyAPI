@@ -27,7 +27,7 @@ namespace CurrencyAPI.Services
         {
             List<string> tickers = new();
 
-            try
+            try 
             {
                 HttpClientHandler hch = new HttpClientHandler();
                 hch.Proxy = null;
