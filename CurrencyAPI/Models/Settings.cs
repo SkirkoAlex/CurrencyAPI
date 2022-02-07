@@ -8,5 +8,7 @@ namespace CurrencyAPI.Models
     public class Settings
     {
         public string Url { get; set; }
+        public string RedisConnectionString { get; set; }
+        public TimeSpan RedisCashLifeTime { get; set; }
     }
 }
